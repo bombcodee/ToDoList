@@ -17,6 +17,7 @@
 		93BED4912A29AFF000C004AB /* TodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BED4902A29AFF000C004AB /* TodoListTests.swift */; };
 		93BED49B2A29AFF000C004AB /* TodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BED49A2A29AFF000C004AB /* TodoListUITests.swift */; };
 		93BED49D2A29AFF000C004AB /* TodoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BED49C2A29AFF000C004AB /* TodoListUITestsLaunchTests.swift */; };
+		93BED4AA2A29D24600C004AB /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BED4A92A29D24600C004AB /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		93BED4962A29AFF000C004AB /* TodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93BED49A2A29AFF000C004AB /* TodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListUITests.swift; sourceTree = "<group>"; };
 		93BED49C2A29AFF000C004AB /* TodoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93BED4A92A29D24600C004AB /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				93BED4762A29AFEF00C004AB /* AppDelegate.swift */,
 				93BED4782A29AFEF00C004AB /* SceneDelegate.swift */,
 				93BED47A2A29AFEF00C004AB /* ViewController.swift */,
+				93BED4A92A29D24600C004AB /* Task.swift */,
 				93BED47C2A29AFEF00C004AB /* Main.storyboard */,
 				93BED4822A29AFF000C004AB /* Assets.xcassets */,
 				93BED4842A29AFF000C004AB /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				93BED47B2A29AFEF00C004AB /* ViewController.swift in Sources */,
 				93BED4772A29AFEF00C004AB /* AppDelegate.swift in Sources */,
+				93BED4AA2A29D24600C004AB /* Task.swift in Sources */,
 				93BED4792A29AFEF00C004AB /* SceneDelegate.swift in Sources */,
 				93BED4812A29AFEF00C004AB /* TodoList.xcdatamodeld in Sources */,
 			);
@@ -448,6 +452,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +480,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
